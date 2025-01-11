@@ -1,37 +1,63 @@
-# Consumer Carbon Incentives (CCI) Program Analysis
+# BAIT 507 Homework Assignment 2: Data Ethics and SQL Queries
 
-This project analyzes Consumer Carbon Incentive (CCI) programs using SQL-based techniques. The focus is on understanding user behavior, reward redemption patterns, and program efficiency. By examining participation trends and potential biases, the analysis supports actionable insights aligned with the United Nations’ Sustainable Development Goals (SDGs), specifically Goal 12 (Responsible Consumption and Production) and Goal 13 (Climate Action).
+## Project Overview
 
-## Objectives
-- Analyze user participation trends in low-carbon activities.
-- Identify inefficiencies and potential biases in reward allocation.
-- Provide recommendations to enhance program sustainability and effectiveness.
+This repository contains the work for **BAIT 507 Homework Assignment 2**, focusing on **data ethics and SQL query analysis** in the context of Consumer Carbon Incentives (CCI) programs. The project is guided by the United Nations' Sustainable Development Goals, specifically Goals **12 (Responsible Consumption and Production)** and **13 (Climate Action)**.
 
-## Key Components
-- **SQL Scripts**:
-  - `queries.sql`: Contains SQL queries for extracting insights, such as participation analysis, credit balances, and activity rankings.
-  - `ddl_and_inserts.sql`: Includes database schema creation and data population scripts.
-- **Documentation**:
-  - Assignment instructions and data ethics discussions are stored in the `docs/` folder.
-- **Outputs**:
-  - Results from SQL queries and analysis are saved in the `outputs/` folder.
-
-## Technologies Used
-- **SQL**: Core language for database queries and data analysis.
-- **Relational Database**: Structured storage and retrieval of project data.
-- **Microsoft Word**: Used for documenting instructions and results.
-
-## How to Use
-1. **Set Up the Database**:
-   - Run the `sql/ddl_and_inserts.sql` script to create database tables and populate them with sample data.
-2. **Run SQL Queries**:
-   - Execute the SQL queries in `sql/queries.sql` to generate insights and analyze program data.
-3. **Review Outputs**:
-   - View the results of the analysis in the `outputs/` folder.
-
-## Results
-This analysis highlights key trends in user participation, identifies inefficiencies in the reward program, and provides actionable recommendations to optimize its impact on sustainability.
+The database explored in this assignment holds records about CCI programs, simulating real-world data on consumer behavior and rewards for low-carbon choices.
 
 ---
 
-This repository is intended for educational purposes as part of the BAIT507 course at UBC.
+## Purpose
+
+The purpose of this project is to:
+1. Explore **data ethics** issues, such as biases and unintended consequences in reward systems.
+2. Analyze **database records** using SQL to generate insights related to:
+   - Consumer behaviors
+   - Environmental sustainability
+3. Provide recommendations for improving CCI programs based on the findings.
+
+---
+
+## Features
+
+- **Data Ethics Analysis:**
+  - Address questions about biases in the CCI program (e.g., age, economic status, geography).
+  - Examine potential increases in carbon emissions due to certain rewards.
+
+- **SQL Query Solutions:**
+  - Identify trends in user participation.
+  - Calculate user credit balances.
+  - Rank activities by their popularity.
+
+---
+
+## Key Files
+
+1. **`CCI_DDL.sql`**:
+   - Contains the database schema and initial data insertion for tables like `ACTIVITY`, `CARBONREWARD`, `CCIUSER`, etc.
+2. **`Queries.sql`**:
+   - SQL scripts solving the assigned queries.
+3. **`Data Ethics.docx`**:
+   - Answers to the data ethics questions with supporting query outputs.
+4. **`BAIT 507 HW 2 2024.docx`**:
+   - Detailed assignment guidelines and deliverables.
+
+---
+
+## Setup Instructions
+
+To replicate the analysis:
+1. **Database Initialization:**
+   - Use the script in `CCI_DDL.txt` to create and populate the database tables.
+2. **SQL Queries:**
+   - Run the queries provided in `Queries.sql` using your preferred SQL environment (e.g., Oracle SQL Developer, MySQL Workbench).
+3. **Ethics Analysis:**
+   - Refer to `Data Ethics.docx` for detailed explanations.
+
+
+---
+
+## License
+
+This project is for academic purposes only. Distribution or usage of the data and SQL scripts for commercial purposes is prohibited.
